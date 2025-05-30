@@ -1,5 +1,13 @@
 # codealpha_tasks
 A Java Swing application for tracking student grades and managing student grades, configured for Eclipse IDE.
+
+
+## Features
+
+- Add/edit/delete student records
+- Calculate grade averages and status
+- Simple and intuitive GUI interface
+
 1. **Import the project**:
    - File → Import → General → Existing Projects into Workspace
    - Select the project folder
@@ -29,12 +37,13 @@ If you get "javax.swing not accessible" error:
 1. Right-click project → Properties → Java Build Path
 2. Remove and re-add the JRE System Library
 3. For Java 9+, add `module-info.java` with:
-   ```java
+
    module studentgradetracker {
        requires java.desktop;
    }
+   
 
-   ## Key Eclipse Configuration Tips
+## Key Eclipse Configuration Tips
 
 1. **Java Version Compliance**:
    - Right-click project → Properties → Java Compiler
