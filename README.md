@@ -1,4 +1,4 @@
-# codealpha_tasks
+# Student-Grade-Tracker
 A Java Swing application for tracking student grades and managing student grades, configured for Eclipse IDE.
 
 
